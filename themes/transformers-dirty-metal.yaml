@@ -1,0 +1,231 @@
+# Transformers Dirty Metal Theme
+# Inspired by the modern weathered, battle-worn Transformers aesthetic
+transformers-dirty-metal:
+  # Primary colors - Gunmetal with rust and copper accents
+  primary-color: '#8b7355'
+  accent-color: '#d84315'
+  
+  # Background colors - Dark weathered metal
+  primary-background-color: '#1c1814'
+  secondary-background-color: '#2d2620'
+  
+  # Text colors - Weathered metallics
+  primary-text-color: '#cfc7b8'
+  secondary-text-color: '#a89888'
+  text-primary-color: '#e0d8c8'
+  disabled-text-color: '#5a5248'
+  
+  # Header colors
+  app-header-background-color: '#1c1814'
+  app-header-text-color: '#cfc7b8'
+  
+  # Card colors - Weathered dark metal
+  card-background-color: '#2d2620'
+  paper-card-background-color: '#2d2620'
+  
+  # Sidebar
+  sidebar-background-color: '#1c1814'
+  sidebar-text-color: '#cfc7b8'
+  sidebar-icon-color: '#a89888'
+  sidebar-selected-background-color: '#3d3530'
+  sidebar-selected-icon-color: '#d4a574'
+  sidebar-selected-text-color: '#d4a574'
+  
+  # State colors
+  state-active-color: '#d4a574'
+  state-inactive-color: '#5a5248'
+  state-icon-color: '#a89888'
+  state-icon-active-color: '#d4a574'
+  
+  # Paper/Material colors for icons
+  paper-item-icon-color: '#a89888'
+  paper-item-icon-active-color: '#d4a574'
+  
+  # Border
+  divider-color: '#3d3530'
+  ha-card-border-color: '#4a4238'
+  
+  # Card-mod theme
+  card-mod-theme: transformers-dirty-metal
+  
+  # Global view styling
+  card-mod-view-yaml: |
+    .: |
+      hui-view {
+        font-family: 'Orbitron', 'Rajdhani', sans-serif !important;
+        background-color: #1c1814 !important;
+        background-image: 
+          repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,.1) 2px, rgba(0,0,0,.1) 4px),
+          repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(0,0,0,.1) 2px, rgba(0,0,0,.1) 4px) !important;
+      }
+  
+  # Card styling - applies to ALL cards
+  card-mod-card-yaml: |
+    .: |
+      /* Card container with weathered metal borders */
+      ha-card {
+        font-family: 'Orbitron', 'Rajdhani', sans-serif !important;
+        border: 2px solid #4a4238 !important;
+        box-shadow: 
+          0 4px 8px rgba(0, 0, 0, 0.5),
+          inset 0 1px 0 rgba(255, 255, 255, 0.05),
+          inset 0 -1px 0 rgba(0, 0, 0, 0.3),
+          0 0 20px rgba(212, 165, 116, 0.1) !important;
+        border-radius: 1px !important;
+        background: 
+          linear-gradient(135deg, #2d2620 0%, #3a342c 30%, #2d2620 70%, #252018 100%),
+          repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(0,0,0,.05) 1px, rgba(0,0,0,.05) 2px) !important;
+        background-blend-mode: normal, overlay !important;
+      }
+      
+      /* Card header - Transformers Movie font with weathered effect */
+      ha-card .card-header {
+        font-family: 'Transformers Movie', 'Orbitron', sans-serif !important;
+        font-size: 1.6em !important;
+        letter-spacing: 0.1em !important;
+        text-transform: uppercase !important;
+        color: #cfc7b8 !important;
+        border-bottom: 2px solid #4a4238 !important;
+        padding: 16px !important;
+        background: 
+          linear-gradient(180deg, #2d2620 0%, #1c1814 100%),
+          repeating-linear-gradient(90deg, transparent, transparent 20px, rgba(0,0,0,.1) 20px, rgba(0,0,0,.1) 21px) !important;
+        background-blend-mode: normal, overlay !important;
+        text-shadow: 
+          2px 2px 0 rgba(0, 0, 0, 0.5),
+          0 0 10px rgba(212, 165, 116, 0.3) !important;
+      }
+      
+      /* All card content */
+      ha-card .card-content {
+        font-family: 'Rajdhani', 'Orbitron', sans-serif !important;
+      }
+      
+      /* All icons weathered copper/brass */
+      ha-card ha-icon,
+      ha-card ha-state-icon,
+      ha-card state-badge {
+        color: #a89888 !important;
+        filter: 
+          drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5))
+          contrast(0.9) !important;
+      }
+      
+      /* Active/on state icons brighter copper */
+      ha-card ha-icon[data-state="on"],
+      ha-card ha-state-icon[data-state="on"] {
+        color: #d4a574 !important;
+        filter: 
+          drop-shadow(0 0 6px rgba(212, 165, 116, 0.5))
+          contrast(1.1) !important;
+      }
+      
+      /* State badge styling */
+      ha-card state-badge {
+        border-radius: 1px !important;
+        background: linear-gradient(135deg, #3d3530 0%, #4a4238 100%) !important;
+        border: 1px solid #5a5248 !important;
+      }
+  
+  # Heading card specific styling
+  card-mod-card-type-heading-yaml: |
+    .: |
+      ha-card {
+        border-top: 3px solid #6d5d4a !important;
+        border-bottom: 3px solid #6d5d4a !important;
+        border-left: none !important;
+        border-right: none !important;
+        background: transparent !important;
+        box-shadow: 
+          0 3px 0 rgba(0, 0, 0, 0.6),
+          0 -3px 0 rgba(255, 255, 255, 0.05),
+          inset 0 1px 0 rgba(255, 255, 255, 0.03) !important;
+      }
+      
+      ha-card h1 {
+        font-family: 'Transformers Movie', 'Orbitron', sans-serif !important;
+        font-size: 2.8em !important;
+        letter-spacing: 0.18em !important;
+        text-transform: uppercase !important;
+        color: #cfc7b8 !important;
+        text-shadow: 
+          3px 3px 0 rgba(0, 0, 0, 0.7),
+          -1px -1px 0 rgba(255, 255, 255, 0.1),
+          0 0 30px rgba(212, 165, 116, 0.4),
+          0 5px 10px rgba(0, 0, 0, 0.6) !important;
+        padding: 24px 0 !important;
+        margin: 0 !important;
+        filter: contrast(1.1) !important;
+      }
+  
+  # Entities card specific styling
+  card-mod-card-type-entities-yaml: |
+    $: |
+      .card-content {
+        font-family: 'Rajdhani', sans-serif !important;
+      }
+      
+      /* Entity rows */
+      hui-generic-entity-row {
+        border-bottom: 1px solid #3d3530 !important;
+        background: repeating-linear-gradient(90deg, transparent, transparent 50px, rgba(0,0,0,.02) 50px, rgba(0,0,0,.02) 51px) !important;
+      }
+      
+      /* Entity names */
+      .info {
+        font-family: 'Orbitron', sans-serif !important;
+        font-weight: 500 !important;
+        color: #cfc7b8 !important;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5) !important;
+      }
+      
+      /* Entity state values */
+      .state {
+        font-family: 'IBM Plex Mono', monospace !important;
+        font-weight: 600 !important;
+        color: #d4a574 !important;
+        text-shadow: 0 0 8px rgba(212, 165, 116, 0.3) !important;
+      }
+  
+  # Button card styling
+  card-mod-card-type-button-yaml: |
+    $: |
+      ha-card {
+        transition: all 0.3s ease !important;
+      }
+      
+      ha-card:hover {
+        transform: translateY(-2px) !important;
+        box-shadow: 
+          0 6px 12px rgba(0, 0, 0, 0.6),
+          inset 0 1px 0 rgba(255, 255, 255, 0.08),
+          0 0 30px rgba(212, 165, 116, 0.2) !important;
+        border-color: #6d5d4a !important;
+      }
+  
+  # Markdown card styling
+  card-mod-card-type-markdown-yaml: |
+    $: |
+      ha-markdown {
+        font-family: 'Rajdhani', sans-serif !important;
+      }
+      
+      ha-markdown h1, ha-markdown h2, ha-markdown h3 {
+        font-family: 'Transformers Movie', 'Orbitron', sans-serif !important;
+        color: #cfc7b8 !important;
+        text-transform: uppercase !important;
+        text-shadow: 
+          2px 2px 0 rgba(0, 0, 0, 0.5),
+          0 0 10px rgba(212, 165, 116, 0.3) !important;
+      }
+      
+      ha-markdown strong {
+        color: #d4a574 !important;
+        text-shadow: 0 0 5px rgba(212, 165, 116, 0.2) !important;
+      }
+      
+      ha-markdown code {
+        background: #1c1814 !important;
+        border: 1px solid #3d3530 !important;
+        color: #a89888 !important;
+      }
