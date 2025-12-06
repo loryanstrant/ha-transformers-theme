@@ -251,10 +251,7 @@ Shadow DOM piercing ensures styling applies throughout Home Assistant components
 ```
 ha-transformers-theme/
 ├── themes/
-│   ├── transformers-dark.yaml
-│   ├── transformers-light.yaml
-│   ├── transformers-silver.yaml
-│   └── transformers-dirty-metal.yaml
+│   └── transformers-themes.yaml     # Single file with all 4 theme variants
 ├── www/
 │   └── transformers/
 │       └── fonts/
