@@ -4,25 +4,25 @@ transformers-dark:
   # Primary colors - Blue (Autobot) and red accents
   primary-color: '#0d47a1'
   accent-color: '#ff1744'
-  
+
   # Background colors - Dark metallic
   primary-background-color: '#0a0e14'
   secondary-background-color: '#151b24'
-  
+
   # Text colors
   primary-text-color: '#e0e6ed'
   secondary-text-color: '#b0c4de'
   text-primary-color: '#ffffff'
   disabled-text-color: '#546e7a'
-  
+
   # Header colors
   app-header-background-color: '#0a0e14'
   app-header-text-color: '#e0e6ed'
-  
+
   # Card colors - Dark metallic blue-tinted
   card-background-color: '#151b24'
   paper-card-background-color: '#151b24'
-  
+
   # Sidebar
   sidebar-background-color: '#0a0e14'
   sidebar-text-color: '#e0e6ed'
@@ -30,24 +30,24 @@ transformers-dark:
   sidebar-selected-background-color: '#1e2936'
   sidebar-selected-icon-color: '#2196f3'
   sidebar-selected-text-color: '#2196f3'
-  
+
   # State colors
   state-active-color: '#2196f3'
   state-inactive-color: '#546e7a'
   state-icon-color: '#64b5f6'
   state-icon-active-color: '#2196f3'
-  
+
   # Paper/Material colors for icons
   paper-item-icon-color: '#64b5f6'
   paper-item-icon-active-color: '#2196f3'
-  
+
   # Border
   divider-color: '#263238'
   ha-card-border-color: '#1e3a5f'
-  
+
   # Card-mod theme
   card-mod-theme: transformers-dark
-  
+
   # Global view styling
   card-mod-view-yaml: |
     .: |
@@ -55,7 +55,7 @@ transformers-dark:
         font-family: 'Orbitron', 'Rajdhani', sans-serif !important;
         background-color: #0a0e14 !important;
       }
-  
+
   # Card styling - applies to ALL cards
   card-mod-card-yaml: |
     .: |
@@ -67,7 +67,7 @@ transformers-dark:
         border-radius: 4px !important;
         background: linear-gradient(135deg, #151b24 0%, #1a2332 100%) !important;
       }
-      
+
       /* Card header - Transformers Movie font */
       ha-card .card-header {
         font-family: 'Transformers Movie', 'Orbitron', sans-serif !important;
@@ -80,30 +80,30 @@ transformers-dark:
         background: linear-gradient(180deg, #0a0e14 0%, #151b24 100%) !important;
         text-shadow: 0 0 10px rgba(33, 150, 243, 0.5) !important;
       }
-      
+
       /* All card content */
       ha-card .card-content {
         font-family: 'Rajdhani', 'Orbitron', sans-serif !important;
       }
-      
+
       /* All icons blue */
       ha-card ha-icon,
       ha-card ha-state-icon,
       ha-card state-badge {
         color: #64b5f6 !important;
       }
-      
+
       /* Active/on state icons brighter blue */
       ha-card ha-icon[data-state="on"],
       ha-card ha-state-icon[data-state="on"] {
         color: #2196f3 !important;
       }
-      
+
       /* State badge styling */
       ha-card state-badge {
         border-radius: 4px !important;
       }
-  
+
   # Heading card specific styling
   card-mod-card-type-heading-yaml: |
     .: |
@@ -115,7 +115,7 @@ transformers-dark:
         background: transparent !important;
         box-shadow: none !important;
       }
-      
+
       ha-card h1 {
         font-family: 'Transformers Movie', 'Orbitron', sans-serif !important;
         font-size: 2.5em !important;
@@ -126,57 +126,57 @@ transformers-dark:
         padding: 20px 0 !important;
         margin: 0 !important;
       }
-  
+
   # Entities card specific styling
   card-mod-card-type-entities-yaml: |
     $: |
       .card-content {
         font-family: 'Rajdhani', sans-serif !important;
       }
-      
+
       /* Entity rows */
       hui-generic-entity-row {
         border-bottom: 1px solid #1e3a5f !important;
       }
-      
+
       /* Entity names */
       .info {
         font-family: 'Orbitron', sans-serif !important;
         font-weight: 500 !important;
       }
-      
+
       /* Entity state values */
       .state {
         font-family: 'IBM Plex Mono', monospace !important;
         font-weight: 600 !important;
         color: #64b5f6 !important;
       }
-  
+
   # Button card styling
   card-mod-card-type-button-yaml: |
     $: |
       ha-card {
         transition: all 0.3s ease !important;
       }
-      
+
       ha-card:hover {
         transform: translateY(-2px) !important;
         box-shadow: 0 6px 12px rgba(33, 150, 243, 0.3), 0 0 30px rgba(33, 150, 243, 0.2) !important;
       }
-  
+
   # Markdown card styling
   card-mod-card-type-markdown-yaml: |
     $: |
       ha-markdown {
         font-family: 'Rajdhani', sans-serif !important;
       }
-      
+
       ha-markdown h1, ha-markdown h2, ha-markdown h3 {
         font-family: 'Transformers Movie', 'Orbitron', sans-serif !important;
         color: #2196f3 !important;
         text-transform: uppercase !important;
       }
-      
+
       ha-markdown strong {
         color: #2196f3 !important;
       }

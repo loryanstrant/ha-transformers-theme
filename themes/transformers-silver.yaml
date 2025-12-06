@@ -4,25 +4,25 @@ transformers-silver:
   # Primary colors - Silver and chrome with red accents
   primary-color: '#c0c0c0'
   accent-color: '#e53935'
-  
+
   # Background colors - Dark with silver tones
   primary-background-color: '#1a1a1a'
   secondary-background-color: '#2a2a2a'
-  
+
   # Text colors - Silver and chrome
   primary-text-color: '#e8e8e8'
   secondary-text-color: '#c0c0c0'
   text-primary-color: '#ffffff'
   disabled-text-color: '#666666'
-  
+
   # Header colors
   app-header-background-color: '#1a1a1a'
   app-header-text-color: '#e8e8e8'
-  
+
   # Card colors - Dark metallic silver
   card-background-color: '#2a2a2a'
   paper-card-background-color: '#2a2a2a'
-  
+
   # Sidebar
   sidebar-background-color: '#1a1a1a'
   sidebar-text-color: '#e8e8e8'
@@ -30,24 +30,24 @@ transformers-silver:
   sidebar-selected-background-color: '#3a3a3a'
   sidebar-selected-icon-color: '#f5f5f5'
   sidebar-selected-text-color: '#f5f5f5'
-  
+
   # State colors
   state-active-color: '#e0e0e0'
   state-inactive-color: '#666666'
   state-icon-color: '#c0c0c0'
   state-icon-active-color: '#f5f5f5'
-  
+
   # Paper/Material colors for icons
   paper-item-icon-color: '#c0c0c0'
   paper-item-icon-active-color: '#f5f5f5'
-  
+
   # Border
   divider-color: '#404040'
   ha-card-border-color: '#606060'
-  
+
   # Card-mod theme
   card-mod-theme: transformers-silver
-  
+
   # Global view styling
   card-mod-view-yaml: |
     .: |
@@ -55,7 +55,7 @@ transformers-silver:
         font-family: 'Orbitron', 'Rajdhani', sans-serif !important;
         background-color: #1a1a1a !important;
       }
-  
+
   # Card styling - applies to ALL cards
   card-mod-card-yaml: |
     .: |
@@ -63,13 +63,13 @@ transformers-silver:
       ha-card {
         font-family: 'Orbitron', 'Rajdhani', sans-serif !important;
         border: 2px solid #808080 !important;
-        box-shadow: 0 4px 8px rgba(192, 192, 192, 0.2), 
+        box-shadow: 0 4px 8px rgba(192, 192, 192, 0.2),
                     inset 0 1px 0 rgba(255, 255, 255, 0.1),
                     0 0 20px rgba(192, 192, 192, 0.1) !important;
         border-radius: 2px !important;
         background: linear-gradient(135deg, #2a2a2a 0%, #353535 50%, #2a2a2a 100%) !important;
       }
-      
+
       /* Card header - Transformers Movie font with chrome effect */
       ha-card .card-header {
         font-family: 'Transformers Movie', 'Orbitron', sans-serif !important;
@@ -80,17 +80,17 @@ transformers-silver:
         border-bottom: 2px solid #808080 !important;
         padding: 16px !important;
         background: linear-gradient(180deg, #2a2a2a 0%, #1a1a1a 100%) !important;
-        text-shadow: 
+        text-shadow:
           0 1px 0 rgba(255, 255, 255, 0.3),
           0 -1px 0 rgba(0, 0, 0, 0.7),
           0 0 20px rgba(255, 255, 255, 0.4) !important;
       }
-      
+
       /* All card content */
       ha-card .card-content {
         font-family: 'Rajdhani', 'Orbitron', sans-serif !important;
       }
-      
+
       /* All icons silver/chrome */
       ha-card ha-icon,
       ha-card ha-state-icon,
@@ -98,20 +98,20 @@ transformers-silver:
         color: #c0c0c0 !important;
         filter: drop-shadow(0 1px 2px rgba(255, 255, 255, 0.3)) !important;
       }
-      
+
       /* Active/on state icons brighter chrome */
       ha-card ha-icon[data-state="on"],
       ha-card ha-state-icon[data-state="on"] {
         color: #f5f5f5 !important;
         filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.5)) !important;
       }
-      
+
       /* State badge styling */
       ha-card state-badge {
         border-radius: 2px !important;
         background: linear-gradient(135deg, #404040 0%, #505050 100%) !important;
       }
-  
+
   # Heading card specific styling
   card-mod-card-type-heading-yaml: |
     .: |
@@ -121,18 +121,18 @@ transformers-silver:
         border-left: none !important;
         border-right: none !important;
         background: transparent !important;
-        box-shadow: 
+        box-shadow:
           0 3px 0 rgba(0, 0, 0, 0.5),
           0 -3px 0 rgba(255, 255, 255, 0.1) !important;
       }
-      
+
       ha-card h1 {
         font-family: 'Transformers Movie', 'Orbitron', sans-serif !important;
         font-size: 2.8em !important;
         letter-spacing: 0.2em !important;
         text-transform: uppercase !important;
         color: #e8e8e8 !important;
-        text-shadow: 
+        text-shadow:
           0 2px 0 rgba(255, 255, 255, 0.3),
           0 -2px 0 rgba(0, 0, 0, 0.7),
           0 0 30px rgba(255, 255, 255, 0.5),
@@ -140,26 +140,26 @@ transformers-silver:
         padding: 24px 0 !important;
         margin: 0 !important;
       }
-  
+
   # Entities card specific styling
   card-mod-card-type-entities-yaml: |
     $: |
       .card-content {
         font-family: 'Rajdhani', sans-serif !important;
       }
-      
+
       /* Entity rows */
       hui-generic-entity-row {
         border-bottom: 1px solid #404040 !important;
       }
-      
+
       /* Entity names */
       .info {
         font-family: 'Orbitron', sans-serif !important;
         font-weight: 500 !important;
         color: #e8e8e8 !important;
       }
-      
+
       /* Entity state values */
       .state {
         font-family: 'IBM Plex Mono', monospace !important;
@@ -167,38 +167,38 @@ transformers-silver:
         color: #c0c0c0 !important;
         text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) !important;
       }
-  
+
   # Button card styling
   card-mod-card-type-button-yaml: |
     $: |
       ha-card {
         transition: all 0.3s ease !important;
       }
-      
+
       ha-card:hover {
         transform: translateY(-2px) !important;
-        box-shadow: 0 6px 12px rgba(192, 192, 192, 0.3), 
+        box-shadow: 0 6px 12px rgba(192, 192, 192, 0.3),
                     inset 0 1px 0 rgba(255, 255, 255, 0.2),
                     0 0 30px rgba(255, 255, 255, 0.2) !important;
       }
-  
+
   # Markdown card styling
   card-mod-card-type-markdown-yaml: |
     $: |
       ha-markdown {
         font-family: 'Rajdhani', sans-serif !important;
       }
-      
+
       ha-markdown h1, ha-markdown h2, ha-markdown h3 {
         font-family: 'Transformers Movie', 'Orbitron', sans-serif !important;
         color: #e8e8e8 !important;
         text-transform: uppercase !important;
-        text-shadow: 
+        text-shadow:
           0 1px 0 rgba(255, 255, 255, 0.3),
           0 -1px 0 rgba(0, 0, 0, 0.7),
           0 0 15px rgba(255, 255, 255, 0.3) !important;
       }
-      
+
       ha-markdown strong {
         color: #f5f5f5 !important;
       }
