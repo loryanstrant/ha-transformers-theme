@@ -24,6 +24,8 @@ The Transformers Theme for Home Assistant offers four unique palettes inspired b
 ### 🌑 Transformers Dark
 The default dark theme with Autobot-inspired blue accents and Decepticon red highlights. Perfect for nighttime viewing with a sleek, futuristic metallic interface.
 
+![Transformers Dark Theme](screenshots/transformers-dark.png)
+
 **Colors:**
 - Primary: Deep Blue (#0d47a1)
 - Accent: Vibrant Red (#ff1744)
@@ -32,6 +34,8 @@ The default dark theme with Autobot-inspired blue accents and Decepticon red hig
 ### ☀️ Transformers Light
 A bright, clean theme inspired by the gleaming metal of Cybertron. Ideal for daytime use with excellent readability and energy-efficient for OLED displays.
 
+![Transformers Light Theme](screenshots/transformers-light.png)
+
 **Colors:**
 - Primary: Bright Blue (#1976d2)
 - Accent: Pink Energy (#ff4081)
@@ -39,6 +43,8 @@ A bright, clean theme inspired by the gleaming metal of Cybertron. Ideal for day
 
 ### 🪙 Transformers Silver
 Retro chrome aesthetic inspired by the classic G1 Transformers logo and vintage toy packaging. Features metallic silver with chrome effects reminiscent of the 1980s era.
+
+![Transformers Silver Theme](screenshots/transformers-silver.png)
 
 **Colors:**
 - Primary: Chrome Silver (#c0c0c0)
@@ -52,6 +58,8 @@ Retro chrome aesthetic inspired by the classic G1 Transformers logo and vintage 
 
 ### ⚙️ Transformers Dirty Metal
 Modern battle-worn aesthetic from the recent Transformers films. Weathered, gritty metal with rust and copper accents for a realistic, lived-in feel.
+
+![Transformers Dirty Metal Theme](screenshots/transformers-dirty-metal.png)
 
 **Colors:**
 - Primary: Gunmetal (#8b7355)
