@@ -52,7 +52,7 @@ transformers-dirty-metal:
   card-mod-view-yaml: |
     .: |
       hui-view {
-        font-family: 'Orbitron', 'Rajdhani', sans-serif !important;
+        font-family: 'Transformers Movie', sans-serif !important;
         background-color: #1c1814 !important;
         background-image:
           repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,.1) 2px, rgba(0,0,0,.1) 4px),
@@ -64,7 +64,7 @@ transformers-dirty-metal:
     .: |
       /* Card container with weathered metal borders */
       ha-card {
-        font-family: 'Orbitron', 'Rajdhani', sans-serif !important;
+        font-family: 'Transformers Movie', sans-serif !important;
         border: 2px solid #4a4238 !important;
         box-shadow:
           0 4px 8px rgba(0, 0, 0, 0.5),
@@ -80,7 +80,7 @@ transformers-dirty-metal:
 
       /* Card header - Transformers Movie font with weathered effect */
       ha-card .card-header {
-        font-family: 'Transformers Movie', 'Orbitron', sans-serif !important;
+        font-family: 'Transformers Movie', sans-serif !important;
         font-size: 1.6em !important;
         letter-spacing: 0.1em !important;
         text-transform: uppercase !important;
@@ -98,7 +98,7 @@ transformers-dirty-metal:
 
       /* All card content */
       ha-card .card-content {
-        font-family: 'Rajdhani', 'Orbitron', sans-serif !important;
+        font-family: 'Transformers Movie', sans-serif !important;
       }
 
       /* All icons weathered copper/brass */
@@ -143,7 +143,7 @@ transformers-dirty-metal:
       }
 
       ha-card h1 {
-        font-family: 'Transformers Movie', 'Orbitron', sans-serif !important;
+        font-family: 'Transformers Movie', sans-serif !important;
         font-size: 2.8em !important;
         letter-spacing: 0.18em !important;
         text-transform: uppercase !important;
@@ -162,7 +162,7 @@ transformers-dirty-metal:
   card-mod-card-type-entities-yaml: |
     $: |
       .card-content {
-        font-family: 'Rajdhani', sans-serif !important;
+        font-family: 'Transformers Movie', sans-serif !important;
       }
 
       /* Entity rows */
@@ -173,7 +173,7 @@ transformers-dirty-metal:
 
       /* Entity names */
       .info {
-        font-family: 'Orbitron', sans-serif !important;
+        font-family: 'Transformers Movie', sans-serif !important;
         font-weight: 500 !important;
         color: #cfc7b8 !important;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5) !important;
@@ -181,7 +181,7 @@ transformers-dirty-metal:
 
       /* Entity state values */
       .state {
-        font-family: 'IBM Plex Mono', monospace !important;
+        font-family: 'Transformers Movie', sans-serif !important;
         font-weight: 600 !important;
         color: #d4a574 !important;
         text-shadow: 0 0 8px rgba(212, 165, 116, 0.3) !important;
@@ -207,11 +207,11 @@ transformers-dirty-metal:
   card-mod-card-type-markdown-yaml: |
     $: |
       ha-markdown {
-        font-family: 'Rajdhani', sans-serif !important;
+        font-family: 'Transformers Movie', sans-serif !important;
       }
 
       ha-markdown h1, ha-markdown h2, ha-markdown h3 {
-        font-family: 'Transformers Movie', 'Orbitron', sans-serif !important;
+        font-family: 'Transformers Movie', sans-serif !important;
         color: #cfc7b8 !important;
         text-transform: uppercase !important;
         text-shadow:
