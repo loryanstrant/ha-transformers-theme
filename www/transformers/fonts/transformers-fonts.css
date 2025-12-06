@@ -5,7 +5,7 @@
  * Source: https://www.fontspace.com/transformers-movie-font-f34560
  */
 
-/* Transformers Movie - Main display font */
+/* Transformers Movie - Main display font used throughout the theme */
 @font-face {
   font-family: 'Transformers Movie';
   src: url('/local/transformers/fonts/TransformersMovie-y9Ad.ttf') format('truetype');
@@ -13,12 +13,3 @@
   font-style: normal;
   font-display: swap;
 }
-
-/* Orbitron - Futuristic font for body text */
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
-
-/* Rajdhani - Technical font for secondary text */
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
-
-/* IBM Plex Mono - Monospace for technical readouts */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap');

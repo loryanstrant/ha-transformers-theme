@@ -137,25 +137,19 @@ frontend:
 
 ## Typography System
 
-### Font Hierarchy
+### Font Usage
 
-The themes implement a sophisticated typography system:
+The themes use a single, authentic font throughout:
 
 | Element | Font | Purpose |
 |---------|------|---------|
-| **Card Headers** | Transformers Movie | Main titles with iconic styling |
-| **Entity Names** | Orbitron | Technical interface labels |
-| **Body Text** | Rajdhani | Clean, readable content |
-| **State Values** | IBM Plex Mono | Monospace technical readouts |
+| **All Text** | Transformers Movie | Consistent iconic styling across the entire interface |
 
 ### Font Stack
 
-- **Transformers Movie** - Authentic movie logo font for headers
-- **Orbitron** - Futuristic technical display font
-- **Rajdhani** - Modern sci-fi interface font
-- **IBM Plex Mono** - Technical monospace for data
+- **Transformers Movie** - Authentic movie logo font used for all text elements
 
-All fonts load automatically via card-mod when the theme is applied.
+The font loads automatically via card-mod when the theme is applied.
 
 ## Visual Design
 
@@ -217,7 +211,7 @@ Shadow DOM piercing ensures styling applies throughout Home Assistant components
 
 ### Performance
 
-- Fonts load from local files (no external dependencies except Google Fonts fallbacks)
+- Font loads from local files (no external dependencies)
 - Minimal CSS overhead
 - No JavaScript required
 - Optimized for fast rendering

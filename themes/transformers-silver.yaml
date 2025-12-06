@@ -52,7 +52,7 @@ transformers-silver:
   card-mod-view-yaml: |
     .: |
       hui-view {
-        font-family: 'Orbitron', 'Rajdhani', sans-serif !important;
+        font-family: 'Transformers Movie', sans-serif !important;
         background-color: #1a1a1a !important;
       }
 
@@ -61,7 +61,7 @@ transformers-silver:
     .: |
       /* Card container with chrome/silver borders */
       ha-card {
-        font-family: 'Orbitron', 'Rajdhani', sans-serif !important;
+        font-family: 'Transformers Movie', sans-serif !important;
         border: 2px solid #808080 !important;
         box-shadow: 0 4px 8px rgba(192, 192, 192, 0.2),
                     inset 0 1px 0 rgba(255, 255, 255, 0.1),
@@ -72,7 +72,7 @@ transformers-silver:
 
       /* Card header - Transformers Movie font with chrome effect */
       ha-card .card-header {
-        font-family: 'Transformers Movie', 'Orbitron', sans-serif !important;
+        font-family: 'Transformers Movie', sans-serif !important;
         font-size: 1.6em !important;
         letter-spacing: 0.12em !important;
         text-transform: uppercase !important;
@@ -88,7 +88,7 @@ transformers-silver:
 
       /* All card content */
       ha-card .card-content {
-        font-family: 'Rajdhani', 'Orbitron', sans-serif !important;
+        font-family: 'Transformers Movie', sans-serif !important;
       }
 
       /* All icons silver/chrome */
@@ -127,7 +127,7 @@ transformers-silver:
       }
 
       ha-card h1 {
-        font-family: 'Transformers Movie', 'Orbitron', sans-serif !important;
+        font-family: 'Transformers Movie', sans-serif !important;
         font-size: 2.8em !important;
         letter-spacing: 0.2em !important;
         text-transform: uppercase !important;
@@ -145,7 +145,7 @@ transformers-silver:
   card-mod-card-type-entities-yaml: |
     $: |
       .card-content {
-        font-family: 'Rajdhani', sans-serif !important;
+        font-family: 'Transformers Movie', sans-serif !important;
       }
 
       /* Entity rows */
@@ -155,14 +155,14 @@ transformers-silver:
 
       /* Entity names */
       .info {
-        font-family: 'Orbitron', sans-serif !important;
+        font-family: 'Transformers Movie', sans-serif !important;
         font-weight: 500 !important;
         color: #e8e8e8 !important;
       }
 
       /* Entity state values */
       .state {
-        font-family: 'IBM Plex Mono', monospace !important;
+        font-family: 'Transformers Movie', sans-serif !important;
         font-weight: 600 !important;
         color: #c0c0c0 !important;
         text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) !important;
@@ -186,11 +186,11 @@ transformers-silver:
   card-mod-card-type-markdown-yaml: |
     $: |
       ha-markdown {
-        font-family: 'Rajdhani', sans-serif !important;
+        font-family: 'Transformers Movie', sans-serif !important;
       }
 
       ha-markdown h1, ha-markdown h2, ha-markdown h3 {
-        font-family: 'Transformers Movie', 'Orbitron', sans-serif !important;
+        font-family: 'Transformers Movie', sans-serif !important;
         color: #e8e8e8 !important;
         text-transform: uppercase !important;
         text-shadow:
