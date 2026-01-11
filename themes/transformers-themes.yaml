@@ -82,6 +82,13 @@ transformers-dark:
   # Global view styling
   card-mod-view-yaml: |
     .: |
+      @font-face {
+        font-family: 'Transformers Movie';
+        src: url('/local/transformers/fonts/TransformersMovie-y9Ad.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
       hui-view {
         font-family: 'Transformers Movie', sans-serif !important;
         background-color: #0a0e14 !important;
@@ -267,6 +274,13 @@ transformers-light:
   # Global view styling
   card-mod-view-yaml: |
     .: |
+      @font-face {
+        font-family: 'Transformers Movie';
+        src: url('/local/transformers/fonts/TransformersMovie-y9Ad.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }    
       hui-view {
         font-family: 'Transformers Movie', sans-serif !important;
         background-color: #f5f7fa !important;
@@ -455,6 +469,13 @@ transformers-silver:
   # Global view styling
   card-mod-view-yaml: |
     .: |
+      @font-face {
+        font-family: 'Transformers Movie';
+        src: url('/local/transformers/fonts/TransformersMovie-y9Ad.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }    
       hui-view {
         font-family: 'Transformers Movie', sans-serif !important;
         background-color: #1a1a1a !important;
@@ -662,6 +683,13 @@ transformers-dirty-metal:
   # Global view styling
   card-mod-view-yaml: |
     .: |
+      @font-face {
+        font-family: 'Transformers Movie';
+        src: url('/local/transformers/fonts/TransformersMovie-y9Ad.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }    
       hui-view {
         font-family: 'Transformers Movie', sans-serif !important;
         background-color: #1c1814 !important;
