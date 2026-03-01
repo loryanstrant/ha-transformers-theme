@@ -31,7 +31,7 @@
 
 # Transformers Dark Theme
 # Inspired by the Autobots with blue and red accents
-transformers-dark:
+Transformers Dark:
   # Primary colors - Blue (Autobot) and red accents
   primary-color: '#0d47a1'
   accent-color: '#ff1744'
@@ -223,7 +223,7 @@ transformers-dark:
 
 # Transformers Light Theme
 # Inspired by a clean, bright Cybertron aesthetic
-transformers-light:
+Transformers Light:
   # Primary colors - Bright blue with energy accents
   primary-color: '#1976d2'
   accent-color: '#ff4081'
@@ -418,7 +418,7 @@ transformers-light:
 
 # Transformers Silver Theme
 # Inspired by the retro chrome Transformers logo and G1 era
-transformers-silver:
+Transformers Silver:
   # Primary colors - Silver and chrome with red accents
   primary-color: '#c0c0c0'
   accent-color: '#e53935'
@@ -632,7 +632,7 @@ transformers-silver:
 
 # Transformers Dirty Metal Theme
 # Inspired by the modern weathered, battle-worn Transformers aesthetic
-transformers-dirty-metal:
+Transformers Dirty Metal:
   # Primary colors - Gunmetal with rust and copper accents
   primary-color: '#8b7355'
   accent-color: '#d84315'
