@@ -104,7 +104,8 @@ Modern battle-worn aesthetic from the recent Transformers films. Weathered, grit
 1. Create a folder with the path: `/www/community/transformers-theme`
 2. Copy the `Transformers.ttf` into the folder
 3. Copy the `transformers-fonts.css` into the folder
-4. Force refresh of your browser, or restart HA
+4. Go to **Settings → Dashboards → (⋮) Resources**, click **Add resource**, set the URL to `/local/community/transformers-theme/transformers-fonts.css`, and set the **Resource type** to **Stylesheet**
+6. Force refresh of your browser
 
 ### Manual Installation
 
