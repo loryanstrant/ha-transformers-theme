@@ -31,7 +31,7 @@
 
 # Transformers Dark Theme
 # Inspired by the Autobots with blue and red accents
-transformers-dark:
+Transformers Dark:
   # Primary colors - Blue (Autobot) and red accents
   primary-color: '#0d47a1'
   accent-color: '#ff1744'
@@ -77,7 +77,7 @@ transformers-dark:
   ha-card-border-color: '#1e3a5f'
 
   # Card-mod theme
-  card-mod-theme: transformers-dark
+  card-mod-theme: 'Transformers Dark'
 
   # Global view styling
   card-mod-view-yaml: |
@@ -223,7 +223,7 @@ transformers-dark:
 
 # Transformers Light Theme
 # Inspired by a clean, bright Cybertron aesthetic
-transformers-light:
+Transformers Light:
   # Primary colors - Bright blue with energy accents
   primary-color: '#1976d2'
   accent-color: '#ff4081'
@@ -269,7 +269,7 @@ transformers-light:
   ha-card-border-color: '#bbdefb'
 
   # Card-mod theme
-  card-mod-theme: transformers-light
+  card-mod-theme: 'Transformers Light'
 
   # Global view styling
   card-mod-view-yaml: |
@@ -418,7 +418,7 @@ transformers-light:
 
 # Transformers Silver Theme
 # Inspired by the retro chrome Transformers logo and G1 era
-transformers-silver:
+Transformers Silver:
   # Primary colors - Silver and chrome with red accents
   primary-color: '#c0c0c0'
   accent-color: '#e53935'
@@ -464,7 +464,7 @@ transformers-silver:
   ha-card-border-color: '#606060'
 
   # Card-mod theme
-  card-mod-theme: transformers-silver
+  card-mod-theme: 'Transformers Silver'
 
   # Global view styling
   card-mod-view-yaml: |
@@ -632,7 +632,7 @@ transformers-silver:
 
 # Transformers Dirty Metal Theme
 # Inspired by the modern weathered, battle-worn Transformers aesthetic
-transformers-dirty-metal:
+Transformers Dirty Metal:
   # Primary colors - Gunmetal with rust and copper accents
   primary-color: '#8b7355'
   accent-color: '#d84315'
@@ -678,7 +678,7 @@ transformers-dirty-metal:
   ha-card-border-color: '#4a4238'
 
   # Card-mod theme
-  card-mod-theme: transformers-dirty-metal
+  card-mod-theme: 'Transformers Dirty Metal'
 
   # Global view styling
   card-mod-view-yaml: |
