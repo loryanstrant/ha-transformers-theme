@@ -9,6 +9,8 @@ Transform your Home Assistant interface with the iconic aesthetic of the Transfo
 
 The Transformers Theme for Home Assistant offers four unique palettes inspired by different eras and styles of the Transformers franchise, from the classic G1 chrome aesthetic to the modern battle-worn metal look of the cinematic universe.
 
+While this works on its own for existing cards, it also pairs nicely with the [Transformers G1 retro cards](https://github.com/loryanstrant/ha-transformers-cards) I've created.
+
 ## Features
 
 - 🤖 **Four Distinct Themes**: Dark, Light, Silver (Retro), and Dirty Metal (Modern)
