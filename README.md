@@ -24,7 +24,13 @@ The Transformers Theme for Home Assistant offers four unique palettes inspired b
 ### 🌑 Transformers Dark
 The default dark theme with Autobot-inspired blue accents and Decepticon red highlights. Perfect for nighttime viewing with a sleek, futuristic metallic interface.
 
-![Transformers Dark Theme](screenshots/transformers-dark.png)
+<img width="1589" height="603" alt="image" src="https://github.com/user-attachments/assets/b6142ff4-16f4-44b7-b440-186601a1f1aa" />
+
+<br><br>
+
+And when combined with the Transformers cards:
+<img width="1834" height="1002" alt="image" src="https://github.com/user-attachments/assets/f09617a5-b0f5-48a0-82b4-311a7fe5b796" />
+
 
 **Colors:**
 - Primary: Deep Blue (#0d47a1)
@@ -34,7 +40,9 @@ The default dark theme with Autobot-inspired blue accents and Decepticon red hig
 ### ☀️ Transformers Light
 A bright, clean theme inspired by the gleaming metal of Cybertron. Ideal for daytime use with excellent readability and energy-efficient for OLED displays.
 
-![Transformers Light Theme](screenshots/transformers-light.png)
+<img width="1586" height="605" alt="image" src="https://github.com/user-attachments/assets/e1d71282-e845-4a59-8e2c-d63f2fa881c6" />
+
+
 
 **Colors:**
 - Primary: Bright Blue (#1976d2)
@@ -44,7 +52,9 @@ A bright, clean theme inspired by the gleaming metal of Cybertron. Ideal for day
 ### 🪙 Transformers Silver
 Retro chrome aesthetic inspired by the classic G1 Transformers logo and vintage toy packaging. Features metallic silver with chrome effects reminiscent of the 1980s era.
 
-![Transformers Silver Theme](screenshots/transformers-silver.png)
+<img width="1591" height="604" alt="image" src="https://github.com/user-attachments/assets/8f5285ce-6ab4-49a9-937a-83859b28ef85" />
+
+
 
 **Colors:**
 - Primary: Chrome Silver (#c0c0c0)
@@ -59,7 +69,9 @@ Retro chrome aesthetic inspired by the classic G1 Transformers logo and vintage 
 ### ⚙️ Transformers Dirty Metal
 Modern battle-worn aesthetic from the recent Transformers films. Weathered, gritty metal with rust and copper accents for a realistic, lived-in feel.
 
-![Transformers Dirty Metal Theme](screenshots/transformers-dirty-metal.png)
+<img width="1586" height="600" alt="image" src="https://github.com/user-attachments/assets/dbcedf0a-9ba7-43d8-8b77-1ab91db3573d" />
+
+
 
 **Colors:**
 - Primary: Gunmetal (#8b7355)
@@ -77,23 +89,27 @@ Modern battle-worn aesthetic from the recent Transformers films. Weathered, grit
 
 **Required**: [card-mod](https://github.com/thomasloven/lovelace-card-mod) must be installed via HACS for full theme functionality.
 
-1. Open HACS → Frontend
+1. Open HACS
 2. Search for "card-mod"
 3. Install and restart Home Assistant
 
 ### HACS Installation (Recommended)
 
-1. Open HACS in your Home Assistant instance
-2. Go to "Frontend" section
-3. Click the "+" button
-4. Search for "Transformers Theme"
-5. Click "Install"
-6. Restart Home Assistant
+1. Open HACS
+2. Search for "Transformers Theme"
+3. Click "Install"
+4. Restart Home Assistant
+
+#### Additional steps to get fonts to work
+1. Create a folder with the path: `/www/community/transformers-theme`
+2. Copy the `Transformers.ttf` into the folder
+3. Copy the `transformers-fonts.css` into the folder
+4. Force refresh of your browser, or restart HA
 
 ### Manual Installation
 
 1. Copy the `themes` folder to your Home Assistant configuration directory
-2. Copy the `www` folder to your Home Assistant configuration directory
+2. Perform the steps above from the previous "Additional steps to get fonts to work" section
 3. Add the following to your `configuration.yaml`:
 
 ```yaml
@@ -113,10 +129,10 @@ The theme works best when applied to specific views (recommended):
 2. Click on a view (tab)
 3. Click "Edit View"
 4. Under "Theme", select your preferred variant:
-   - `transformers-dark`
-   - `transformers-light`
-   - `transformers-silver`
-   - `transformers-dirty-metal`
+   - `Transformers Dark`
+   - `Transformers Light`
+   - `Transformers Silver`
+   - `Transformers Dirty Metal`
 5. Save
 
 ### Setting as Profile Default
@@ -125,15 +141,6 @@ The theme works best when applied to specific views (recommended):
 2. Under "Theme", select your preferred Transformers theme
 3. The theme applies immediately
 
-### Setting as System Default
-
-To set as default for all users, add to `configuration.yaml`:
-
-```yaml
-frontend:
-  themes: !include_dir_merge_named themes
-  default_theme: transformers-dark
-```
 
 ## Typography System
 
@@ -246,31 +253,13 @@ Shadow DOM piercing ensures styling applies throughout Home Assistant components
 - **HACS**: Recommended for installation
 - **Browsers**: All modern browsers with shadow DOM support
 
-## Repository Structure
 
-```
-ha-transformers-theme/
-├── themes/
-│   └── transformers-themes.yaml     # Single file with all 4 theme variants
-├── www/
-│   └── transformers/
-│       └── fonts/
-│           ├── transformers-fonts.css
-│           └── TransformersMovie-y9Ad.ttf
-├── transformers-movie-font/
-│   ├── TransformersMovie-y9Ad.ttf
-│   └── info.txt
-├── screenshots/
-├── .github/
-│   └── workflows/
-│       └── validate.yaml
-├── .gitignore
-├── hacs.json
-├── README.md
-└── LICENSE
-```
 
 ## Development
+
+### Approach
+<img width="256" height="256" alt="image" src="https://github.com/user-attachments/assets/52a0714f-c38d-4f88-aaa5-eafa451717ac" />
+
 
 ### Testing
 
