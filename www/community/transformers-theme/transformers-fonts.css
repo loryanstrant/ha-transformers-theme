@@ -8,7 +8,7 @@
 /* Transformers Movie - Main display font used throughout the theme */
 @font-face {
   font-family: 'Transformers Movie';
-  src: url('/local/transformers/fonts/TransformersMovie-y9Ad.ttf') format('truetype');
+  src: url('/local/community/transformers-theme/Transformers.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;

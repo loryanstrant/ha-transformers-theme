@@ -84,7 +84,7 @@ Transformers Dark:
     .: |
       @font-face {
         font-family: 'Transformers Movie';
-        src: url('/local/transformers/fonts/TransformersMovie-y9Ad.ttf') format('truetype');
+        src: url('/local/community/transformers-theme/Transformers.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
         font-display: swap;
@@ -276,7 +276,7 @@ Transformers Light:
     .: |
       @font-face {
         font-family: 'Transformers Movie';
-        src: url('/local/transformers/fonts/TransformersMovie-y9Ad.ttf') format('truetype');
+        src: url('/local/community/transformers-theme/TransformersMovie-y9Ad.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
         font-display: swap;
@@ -471,7 +471,7 @@ Transformers Silver:
     .: |
       @font-face {
         font-family: 'Transformers Movie';
-        src: url('/local/transformers/fonts/TransformersMovie-y9Ad.ttf') format('truetype');
+        src: url('/local/community/transformers-theme/Transformers.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
         font-display: swap;
@@ -685,7 +685,7 @@ Transformers Dirty Metal:
     .: |
       @font-face {
         font-family: 'Transformers Movie';
-        src: url('/local/transformers/fonts/TransformersMovie-y9Ad.ttf') format('truetype');
+        src: url('/local/community/transformers-theme/Transformers.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
         font-display: swap;
