@@ -1,6 +1,6 @@
 **UPDATE: These themes have been superceded with a new integration called [Transformers Allspark UI](https://github.com/loryanstrant/HA-Transformers-Allspark-UI) which now includes:**
 - 4 NEW Transformers G1 themes
-- Existing Transformers G1 cards from the [existing dashboard cards I created](https://github.com/loryanstrant/ha-transformers-cards) (which has also been archived)
+- Transformers G1 cards from the [existing dashboard cards I created](https://github.com/loryanstrant/ha-transformers-cards) (which has also been archived)
 - Automatic installation of Transformers G1 and movie fonts
 - Improved cards to support font consistency throughout
 - Ability to choose whether cards use G1, movie, or theme fonts
